@@ -1,8 +1,11 @@
 <resources>
-	<color name="primaryColor">#0BA5A4</color>
-	<color name="primaryDarkColor">#087A79</color>
+	<color name="primaryColor">#1E88E5</color>
+	<color name="primaryDarkColor">#1565C0</color>
 	<color name="accentColor">#F59E0B</color>
-	<color name="backgroundLight">#F5F9FA</color>
+	<color name="backgroundLight">#F5F7FB</color>
 	<color name="textPrimary">#102A43</color>
 	<color name="textSecondary">#486581</color>
+	<color name="tileLight">#EDF4FF</color>
+	<color name="tileBlue">#D7E9FF</color>
+	<color name="cardSurface">#FFFFFF</color>
 </resources>

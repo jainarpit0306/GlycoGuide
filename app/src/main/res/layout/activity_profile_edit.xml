@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundLight">
+
+    <include layout="@layout/include_header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <EditText android:id="@+id/etFullName" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Full name" />
+            <EditText android:id="@+id/etUsername" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="Username" />
+            <EditText android:id="@+id/etEmail" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="Email" android:inputType="textEmailAddress" />
+            <EditText android:id="@+id/etPhone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="Phone" android:inputType="phone" />
+            <EditText android:id="@+id/etSpecialization" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="Specialization" />
+            <EditText android:id="@+id/etQualifications" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="Qualifications" />
+            <EditText android:id="@+id/etRegNumber" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="Registration number" />
+            <EditText android:id="@+id/etExperience" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="Years of experience" android:inputType="number" />
+            <EditText android:id="@+id/etLanguages" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="Languages" />
+            <EditText android:id="@+id/etConsultationHours" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="Consultation hours" />
+            <EditText android:id="@+id/etAffiliations" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="Affiliations" />
+            <EditText android:id="@+id/etClinicName" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:hint="Clinic name" />
+            <EditText android:id="@+id/etClinicAddress" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:minLines="2" android:hint="Clinic address" />
+
+            <Button
+                android:id="@+id/btnSaveProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Save"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/primaryColor" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

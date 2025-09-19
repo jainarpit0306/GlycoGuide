@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GlycoGuide">
+        <activity android:name=".ui.ProfileEditActivity" />
         <activity android:name=".ui.PatientDetailActivity" />
         <activity android:name=".ui.ChangePasswordActivity" />
         <activity android:name=".ui.ProfileActivity" />
