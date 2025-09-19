@@ -1,0 +1,15 @@
+<resources>
+	<style name="Theme.GlycoGuide" parent="Theme.MaterialComponents.Light.NoActionBar">
+		<item name="colorPrimary">@color/primaryColor</item>
+		<item name="colorPrimaryDark">@color/primaryDarkColor</item>
+		<item name="colorAccent">@color/accentColor</item>
+		<item name="android:statusBarColor">@color/primaryDarkColor</item>
+		<item name="android:navigationBarColor">@color/primaryDarkColor</item>
+	</style>
+
+	<style name="Widget.GlycoGuide.Header" parent="Widget.MaterialComponents.Toolbar">
+		<item name="android:background">@color/primaryColor</item>
+		<item name="titleTextColor">@android:color/white</item>
+		<item name="subtitleTextColor">@android:color/white</item>
+	</style>
+</resources>

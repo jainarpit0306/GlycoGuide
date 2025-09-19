@@ -1,0 +1,25 @@
+<resources>
+	<string name="app_name">GlycoGuide</string>
+	<string name="title_splash">GlycoGuide</string>
+	<string name="title_login">Doctor Login</string>
+	<string name="title_reset_password">Reset Password</string>
+	<string name="title_dashboard">Dashboard</string>
+	<string name="title_patients">Patient Management</string>
+	<string name="title_appointments">Appointment Management</string>
+	<string name="title_records">Previous Records</string>
+	<string name="title_medication">Medication</string>
+	<string name="title_profile">Profile</string>
+	<string name="hint_username">Username</string>
+	<string name="hint_password">Password</string>
+	<string name="action_login">Login</string>
+	<string name="action_reset_password">Forgot password?</string>
+	<string name="action_back">Back</string>
+	<string name="error_invalid_login">Invalid username or password</string>
+	<string name="label_doctor_name">Dr. John Doe</string>
+	<string name="title_patient_details">Patient Details</string>
+	<string name="label_personal_info">Personal Info</string>
+	<string name="label_medical_history">Medical History</string>
+	<string name="label_current_treatment">Current Treatment Details</string>
+	<string name="label_prescribe_new">Prescribe New Treatment</string>
+	<string name="label_subscription_details">Subscription Details</string>
+</resources>
